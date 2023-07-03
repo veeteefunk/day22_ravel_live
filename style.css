@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #330066; */
+    font-family: "Inter", sans-serif;
+    background-color: #4C5D8B;
+}
+
+header {
+    margin: 0;
+    background-color: #330066;
+}
+
+header .header-img {
+    width: 20%;
+}
+
+nav {
+    background-color: #9176AC;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 1.6rem 10rem;
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+article {
+    background-color: #4C5D8B;
+    margin: 3rem 20rem;
+}
+
+article p {
+    padding: 2rem 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+section .row-1,
+section .row-2, 
+section .row-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .row-1 .work,
+section .row-2 .work,
+section .row-3 .work {
+    width: 220px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 219, 222);
+    padding: 0.5rem 0.6rem;
+    border: black 2px solid;
+}
+
+.row-1 a,
+.row-2 a,
+.row-3 a {
+    text-decoration: none;
+    color: #20073a;
+    transition: transform 0.4s ease;
+    font-size: 0.7rem;
+}
+
+.row-1 a:hover,
+.row-2 a:hover,
+.row-3 a:hover {
+    background-color: rgb(90, 29, 39);
+    transform: scale(1.03);
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        width: 20%;
+    }
+  }
